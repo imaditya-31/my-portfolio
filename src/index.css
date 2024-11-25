@@ -8,7 +8,7 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background: linear-gradient(to right, #ffe1ff, #b3d6e0, #3f8eba);
+  background: linear-gradient(to right, #ffffff, #afdbfb, #8ed0ff);
   color: #333333;
   line-height: 1.6;
   margin: 0;
@@ -56,11 +56,12 @@ footer {
 /* --------------------------- Header-related styles --------------------------- */
 
 header {
-  background-color: #3f8eba;
+  background-color: #004b87;
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .header-content {
@@ -168,6 +169,12 @@ header {
   min-height: 50vh;
   background-color: #fff;
   text-align: left;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 .profile-container {
@@ -197,17 +204,13 @@ header {
 .profile-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #9f9f9f;
 }
 
 .profile-text p {
   font-size: 1.2rem;
   color: #666;
   margin-bottom: 2rem;
-}
-
-.resume-section {
-  margin-top: 1.5rem;
 }
 
 .resume-button {
@@ -261,12 +264,17 @@ header {
 /* --------------------------- About Page Styles --------------------------- */
 
 .about {
-  background-color: #fafafa;
   padding: 4rem 2rem;
   text-align: center;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.6s forwards;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 .about h2 {
@@ -297,6 +305,12 @@ header {
   background-color: #ffffff;
   padding: 2rem 2rem;
   text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 .projects h2 {
@@ -339,11 +353,16 @@ header {
 
 /* --------------------------- Experience Styles --------------------------- */
 .experience {
-  background-color: #f1f1f1;
   padding: 2rem 2rem;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.6s forwards;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 .experience h2 {
@@ -372,7 +391,7 @@ header {
     transform: translateY(20px);
   }
   to {
-    opacity: 1; 
+    opacity: 1;
     transform: translateY(0);
   }
 }
@@ -416,14 +435,16 @@ footer p {
 /* --------------------------- Contact Page Styles --------------------------- */
 
 .contact-page {
-  background-color: linear-gradient(to right #3f8eba, #b3d6e0, #ffe1ff);
-  border-color: #004b87;
-  border: 2px solid #ffffff;
-  border-radius: 2%;
   padding: 2rem;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 .contact-page h2 {
@@ -500,6 +521,7 @@ button[type="submit"]:hover {
   color: white;
   text-align: center;
   padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 .headline h1 {
@@ -520,6 +542,12 @@ button[type="submit"]:hover {
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.6s forwards;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 .summary h2 {
@@ -529,7 +557,7 @@ button[type="submit"]:hover {
 
 .summary p {
   font-size: 1.1rem;
-  color: #555;
+  color: #333333;
 }
 
 @media (max-width: 768px) {

@@ -11,7 +11,7 @@ const About = () => {
     <div>
           <section className="about">
       <h2>About Me</h2>
-      <p>Hi, I'm Aditya Vishwakarma, a passionate web developer.</p>
+      <p>Hi, I'm Aditya Vishwakarma, a passionate Mobile App Developer</p>
     </section>
       <section className="headline-section">
         <Headline />
